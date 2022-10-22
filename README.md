@@ -141,7 +141,7 @@ end
 
 function Text(value)
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Switch Notification", 
+        Title = "Notification", 
         Text = tostring(value),
         Icon = "http://www.roblox.com/asset/?id=9606070311",
         Duration = 10
@@ -149,7 +149,7 @@ function Text(value)
 end
 function Com()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Switch Notification", 
+        Title = "Notification", 
         Text = "✅  Complete",
         Icon = "http://www.roblox.com/asset/?id=9606070311",
         Duration = 5
