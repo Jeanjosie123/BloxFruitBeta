@@ -58,7 +58,7 @@ elseif placeId == 4442272183 then
 elseif placeId == 7449423635 then
     Three_World = true
 end
-_G.Color = Color3.fromRGB(68, 202, 186)
+_G.Color = Color3.fromRGB(156, 30, 159)
 
 _G.Setting_table = {
     Auto_Farm = false,
@@ -2128,7 +2128,7 @@ if IKAI then
 		Main.Parent = RippleHUBLIB
 		Main.ClipsDescendants = true
 		Main.AnchorPoint = Vector2.new(0.5,0.5)
-		Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+		Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 		Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 		Main.Size = UDim2.new(0, 0, 0, 0)
 		
@@ -2254,26 +2254,26 @@ if IKAI then
 		
 		ToggleImgUi.Name = "ToggleImgUi"
 		ToggleImgUi.Parent = ToggleFrameUi
-		ToggleImgUi.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+		ToggleImgUi.BackgroundColor3 = Color3.fromRGB(217, 139, 253)
 		ToggleImgUi.BackgroundTransparency = 1
 		ToggleImgUi.Position = UDim2.new(0.0454545468, 0, 0.125000313, 0)
 		ToggleImgUi.Size = UDim2.new(0, 35, 0, 35)
-		ToggleImgUi.Image = "rbxassetid://9606070311"
-		-- http://www.roblox.com/asset/?id=9605991378
+		ToggleImgUi.Image = "rbxassetid://"
+		-- http://www.roblox.com/asset/?id=
 		Uitoggle.Name = "Uitoggle"
 		Uitoggle.Parent = ToggleFrameUi
-		Uitoggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Uitoggle.BackgroundColor3 = Color3.fromRGB(5, 138, 38)
 		Uitoggle.BackgroundTransparency = 1.000
 		Uitoggle.Position = UDim2.new(0.25757575, 0, 0, 0)
 		Uitoggle.Size = UDim2.new(0, 137, 0, 25)
 		Uitoggle.Font = Enum.Font.GothamSemibold
-		Uitoggle.Text = "Ui Toggle :"
+		Uitoggle.Text = "Open With Ctrl >Right< :"
 		Uitoggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Uitoggle.TextSize = 12.000
 		
 		Yedhee.Name = "Yedhee"
 		Yedhee.Parent = ToggleFrameUi
-		Yedhee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Yedhee.BackgroundColor3 = Color3.fromRGB(138, 5, 38)
 		Yedhee.BackgroundTransparency = 1.000
 		Yedhee.Position = UDim2.new(0.25757575, 0, 0.479166657, 0)
 		Yedhee.Size = UDim2.new(0, 137, 0, 25)
@@ -2399,7 +2399,7 @@ if IKAI then
 	ImageLabelfps.BackgroundTransparency = 1.000
 	ImageLabelfps.Position = UDim2.new(0.083989636, 0, 0.15545856, 0)
 	ImageLabelfps.Size = UDim2.new(0, 29, 0, 29)
-	ImageLabelfps.Image = "rbxassetid://9606070311"
+	ImageLabelfps.Image = "rbxassetid://"
 	
 	ImageLabeltime.Name = "ImageLabeltime"
 	ImageLabeltime.Parent = Frametime
@@ -2407,7 +2407,7 @@ if IKAI then
 	ImageLabeltime.BackgroundTransparency = 1.000
 	ImageLabeltime.Position = UDim2.new(0.083989636, -9, 0.15545856, 0)
 	ImageLabeltime.Size = UDim2.new(0, 29, 0, 29)
-	ImageLabeltime.Image = "rbxassetid://9606070311"
+	ImageLabeltime.Image = "rbxassetid://"
 	
 	
 	Framefps.MouseEnter:Connect(function()
@@ -3689,13 +3689,13 @@ if IKAI then
 end
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Switch Notification", 
-	Text = "ฟังชั่นที่มีไอคอนนี้สามารถเปิด\nพร้อมฟามเวลได้",
-	Icon = "http://www.roblox.com/asset/?id=9610159123",
+	Title = "Notification", 
+	Text = "ยังคงเป็น beta อยู่",
+	Icon = "http://www.roblox.com/asset/?id=9608089732",
 	Duration = 8
 })
 
-local win = library:Window("HEX",[[HUB]],[[Version : เกย์ ]],"9606070311",Enum.KeyCode.RightControl)
+local win = library:Window("HEX CLUB",[[]],[[Version : BETA ]],"9608089732",Enum.KeyCode.RightControl)
 local General_Tab = win:Tab("General",[[7040391851]])
 local Quest_Tab = win:Tab("    Quest & Item",[[9606626859]])
 local PvP_Tab = win:Tab("PvP",[[9606626034]])
