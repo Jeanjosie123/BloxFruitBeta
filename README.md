@@ -3026,7 +3026,7 @@ if IKAI then
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 10, 0, 5)
 				imgLabelIcon.Size = UDim2.new(0, 20, 0, 20)
-				imgLabelIcon.Image = "http://www.roblox.com/asset/?id="..Imgidicon
+				imgLabelIcon.Image = "http://www.roblox.com/asset/?id=7059346373"..Imgidicon
 	
 				Button.MouseButton1Click:Connect(function()
 					if toggled == false then
@@ -3691,11 +3691,11 @@ end
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Notification", 
 	Text = "ยังคงเป็น beta อยู่",
-	Icon = "http://www.roblox.com/asset/?id=9608089732",
+	Icon = "http://www.roblox.com/asset/?id=10762290938",
 	Duration = 8
 })
 
-local win = library:Window("HEX CLUB",[[]],[[Version : BETA ]],"9608089732",Enum.KeyCode.RightControl)
+local win = library:Window("HEX",[[CLUB]],[[Version : BETA ]],"5577610898",Enum.KeyCode.RightControl)
 local General_Tab = win:Tab("General",[[7040391851]])
 local Quest_Tab = win:Tab("    Quest & Item",[[9606626859]])
 local PvP_Tab = win:Tab("PvP",[[9606626034]])
@@ -10581,7 +10581,7 @@ function HopServer()
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Hop Low Server ", 
 			Text = "กำลังหาเซิฟ",
-			Icon = "http://www.roblox.com/asset/?id=9606070311",
+			Icon = "http://www.roblox.com/asset/?id=7059346373",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10607,7 +10607,7 @@ function HopServer()
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "Hop Low Server ", 
 					Text = "Players : " ..tonumber(v.playing),
-					Icon = "http://www.roblox.com/asset/?id=9606070311",
+					Icon = "http://www.roblox.com/asset/?id=7059346373",
 					Duration = 1.5
 				})
 				if tonumber(v.maxPlayers) > tonumber(v.playing) then
@@ -10660,9 +10660,9 @@ function HopLowServer()
 	if not _G.TP_Ser then
 		_G.TP_Ser = true
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Hop Server S", 
+			Title = "Hop Server", 
 			Text = "กำลังหาเซิฟ",
-			Icon = "http://www.roblox.com/asset/?id=9606070311",
+			Icon = "http://www.roblox.com/asset/?id=7059346373",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10744,7 +10744,7 @@ Island_Tab:Button("Re join Server",function()
 	game.StarterGui:SetCore("SendNotification", {
         Title = "Re Join Server", 
         Text = "Ready Go!",
-        Icon = "http://www.roblox.com/asset/?id=9606070311",
+        Icon = "http://www.roblox.com/asset/?id=7059346373",
         Duration = 10
     })
 	_G.TP_Ser = true
